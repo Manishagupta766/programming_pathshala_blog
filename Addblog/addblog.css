@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+*{  margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: #FBFBFB;
+    width: 80%;
+    margin: auto;
+    padding:38px 52px 41px 52px;
+}
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+}
+.details{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;;
+}
+
+input{
+    width: 100%;
+    height: 51px;
+    margin-bottom: 20px;
+    margin-top: 16px;
+    background: #FFFFFF;
+    border: 1px solid rgba(68, 75, 171, 0.1);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    /* or 33px */
+    color: #AAAAAA;
+    padding: 11px 0 11px 26px;
+    
+}
+
+
+#Add-tag{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    /* or 33px */
+    color: #AAAAAA;
+    padding-left: 22px;
+    height: 51px;
+    background: #FFFFFF;
+    border: 1px solid rgba(68, 75, 171, 0.1);
+}
+
+.box input {
+    height: 171px;
+}
+
+ #uploadBtn{ 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 150%;
+    color: #435BAF;
+}
+.button3{
+      
+      border: 2px;
+      color: #000;
+      float: right;
+      margin-right: 100px;
+      margin-top: 10px;
+      
+}
+.button2{
+    margin-top: 20px;
+    background: linear-gradient(93.44deg, #444BAB -6.8%, #3CA5C2 186.94%);
+    border-radius: 6px;
+    width: 202px;
+height: 49px;
+left: 1167px;
+top: 1114px;
+float: right;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 149.8%;
+border: none;
+color: #FFFFFF;
+}
+span .max{
+    font-size: 50px;
+}
+select{
+    width: 100%;
+    height: 41px;
+}
+.button{
+    width: 120px;
+   
+}
+.Date{
+    width: 40%;
+    border-radius: 0px;
+    
+}
+
+.Read-Time{
+    width: 50%;
+    border-radius: 0px;
+}input[type=date]:required:invalid::-webkit-datetime-edit {
+    color: transparent;
+    
+}input[type=date]:focus::-webkit-datetime-edit {
+    color: black !important;
+}
+input[type=time]::-webkit-datetime-edit-ampm-field,
+input[type=time]::-webkit-datetime-edit-day-field,
+input[type=time]::-webkit-datetime-edit-hour-field,
+input[type=time]::-webkit-datetime-edit-millisecond-field,
+input[type=time]::-webkit-datetime-edit-minute-field,
+input[type=time]::-webkit-datetime-edit-month-field,
+input[type=time]::-webkit-datetime-edit-second-field,
+input[type=time]::-webkit-datetime-edit-week-field,
+input[type=time]::-webkit-datetime-edit-year-field,
+input[type=time]::-webkit-datetime-edit-text {
+  color: transparent;
+}
+input[type=time]:focus::-webkit-datetime-edit-ampm-field,
+input[type=time]:focus::-webkit-datetime-edit-day-field,
+input[type=time]:focus::-webkit-datetime-edit-hour-field,
+input[type=time]:focus::-webkit-datetime-edit-millisecond-field,
+input[type=time]:focus::-webkit-datetime-edit-minute-field,
+input[type=time]:focus::-webkit-datetime-edit-month-field,
+input[type=time]:focus::-webkit-datetime-edit-second-field,
+input[type=time]:focus::-webkit-datetime-edit-week-field,
+input[type=time]:focus::-webkit-datetime-edit-year-field,
+input[type=time]:focus::-webkit-datetime-edit-text {
+    color: black !important;
+}
+
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+@media (max-width:350px) {
+    .title{
+        text-align: center;
+    }
+    .details{
+        text-align: left;
+        padding-left: 2px;
+    }
+    .container{
+        padding-left: 2px;
+    }
+    .row{
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,109 @@
+@font-face {
+  src: url("../fonts/Gilroy/Gilroy-Bold.woff");
+  font-family: gilroy;
+}
+@font-face {
+  src: url("../fonts/Gilroy/Gilroy-Medium.woff");
+  font-family: gilroy-m;
+}
+#navbar {
+  position: sticky;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+  padding: 0 5%;
+}
+.innerContent {
+  position: sticky;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#logo {
+  width: 35.85px;
+  height: 42.75px;
+}
+
+#pplogo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#company-name {
+  color: #444bab;
+  font-family: gilroy;
+  font-size: 30px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+#tags {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 50px;
+}
+
+#tag-1,
+#tag-2,
+#tag-3,
+#tag-4,
+#tag-5 {
+  font-family: gilroy-m;
+  margin: 0 20px;
+}
+
+a{
+  color: #4F516B !important;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 10px;
+}
+
+#login-button {
+  vertical-align: middle;
+  text-align: center;
+}
+#login {
+  width: 121px;
+  height: 36px;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 6px;
+  border: 1px solid #444bab;
+  margin-left: 30px;
+}
+#log-in {
+  font-family: gilroy;
+  color: #444bab;
+  font-size: 16px;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 0px;
+  margin: 3% 0;
+}
+#free-trial {
+  background-color: #444bab;
+  border-radius: 6px;
+  width: 164px;
+  height: 36px;
+  border-color: #444bab;
+  text-align: center;
+  line-height: 0px;
+  margin-left: 30px;
+}
+#free-trial-text {
+  font-family: gilroy;
+  color: white;
+  font-size: 16px;
+  margin: 3% 0;
+}
